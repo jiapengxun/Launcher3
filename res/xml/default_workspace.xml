@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    
+    <appwidget
+        launcher:packageName="com.yh.weatherwidget"
+        launcher:className="com.yh.weatherwidget.WeatherWidget"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="2"
+        launcher:spanY="2" />
+        
+    <favorite
+        launcher:packageName="com.autonavi.xmgd.navigator"
+        launcher:className="com.autonavi.xmgd.navigator.Warn"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.yinhang.dvr"
+        launcher:className="com.yinhang.dvr.ActivityMain"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.yinhang.dvr"
+        launcher:className="com.yinhang.dvr.ActivityVideoList"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.yh.edog"
+        launcher:className="com.yh.edog.EdogSettings"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.coagent.app"
+        launcher:className="com.coagent.activity.MainActivity"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.android.music"
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.android.gallery3d.app.GalleryActivity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.yh.yhbluetoothphone"
+        launcher:className="com.yh.bluetoothphone.activity.MainActivity"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.estrongs.android.pop"
+        launcher:className="com.estrongs.android.pop.view.FileExplorerActivity"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.softwinner.miracastReceiver"
+        launcher:className="com.softwinner.miracastReceiver.Miracast"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    
+    <favorite
+        launcher:packageName="com.sohu.inputmethod.sogou"
+        launcher:className="com.sohu.inputmethod.sogou.SogouIMELauncher"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.android.settings.quickconnect"
+        launcher:className="com.android.settings.quickconnect.QuickConnectSettings"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1" />
+    
+    <favorite
+        launcher:packageName="com.yhnavi.fmtransmitter"
+        launcher:className="com.yhnavi.fmtransmitter.FmTransmitter"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="1" />
+    
+</favorites>
